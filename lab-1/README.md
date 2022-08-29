@@ -12,4 +12,4 @@ September 2nd, 2022
 - Moreover, you will be using GitHub Classrooms to submit your assignments!
 - You can refer to the lab recording on bCourses and [this](https://www.youtube.com/watch?v=USjZcfj8yxE) video in case you need to learn about GitHub from scratch or refresh some of its concepts.
 
-## [Basics of HTML](/Basics of HTML.md)
+## [Basics of HTML](BasicsOfHTML.md)
