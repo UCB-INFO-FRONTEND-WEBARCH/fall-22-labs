@@ -1,6 +1,6 @@
 # INFO 153A/253A - Front-End Web Architecture (Labs)
 
-This repository serves as the base for all the demo and practice code that we do in the Friday Labs
+This repository serves as the base for all the demo and practice code that we do in the Friday Labs.
 
 ## Lab 1 - September 2nd, 2022
 
