@@ -2,7 +2,7 @@
 
 This repository serves as the base for all the demo and practice code that we do in the Friday Labs.
 
-## Lab 1 - September 2nd, 2022
+## [Lab 1 - September 2nd, 2022](/lab-1/README.md)
 
 Topics we covered:
 1. Setting up the coding environment for this class.
@@ -13,7 +13,7 @@ Topics we covered:
     - Introduction to basic relevant tags - headings, paragraph, links, images
     - Structuring our HTML5 document
 
-## Lab 2 - September 9th, 2022
+## [Lab 2 - September 9th, 2022](/lab-2/README.md)
 
 Topics we covered:
 1. Developer Tools and Page Source
