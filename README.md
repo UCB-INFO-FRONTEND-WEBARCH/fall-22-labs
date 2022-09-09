@@ -12,3 +12,20 @@ Topics we covered:
     - Introduction to the required tags - head, body ...
     - Introduction to basic relevant tags - headings, paragraph, links, images
     - Structuring our HTML5 document
+
+## Lab 2 - September 9th, 2022
+
+Topics we covered:
+1. Developer Tools and Page Source
+2. DOM
+3. Advanced HTML5 tags
+    - Lists
+    - Iframes
+    - Blocks and Inline Elements - `<div>`, `<span>`
+    - Forms and inputs
+4. Basics of CSS
+    - What is CSS?
+    - Why do we need CSS?
+    - CSS syntax
+    - CSS selectors
+    - Widely used CSS properties

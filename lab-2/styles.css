@@ -1,0 +1,15 @@
+body {
+  background-color: black;
+  color: red;
+  font-family: Georgia;
+  font-size: 20px;
+}
+
+p {
+    text-align: center;
+    color: blue;
+}
+
+li {
+  color: #fff;
+}
