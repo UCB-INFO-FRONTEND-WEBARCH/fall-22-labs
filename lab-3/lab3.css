@@ -1,0 +1,71 @@
+.change-me {
+  color: red;
+  margin: 20px 10px 20px 10px;
+  padding: 20px 10px;
+}
+
+body {
+  color: blue;
+  background-color: black;
+}
+
+div {
+  padding: 10px;
+  margin: 20px;
+  height: 150px;
+  width: 25%;
+  background-color: white;
+  border-style: dashed;
+  border-color: blueviolet;
+  border-width: 10px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+p {
+  color: green;
+  margin-top: 10px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+}
+
+div.static {
+  position: static;
+  border: 3px solid #73ad21;
+}
+
+div.relative {
+  position: relative;
+  left: 10%;
+  width: 400px;
+  height: 200px;
+  border: 3px solid #73ad21;
+}
+
+div.absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73ad21;
+}
+
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73ad21;
+}
+
+img {
+  position: absolute;
+  left: 20%;
+  top: 30%;
+  z-index: -1;
+}

@@ -29,3 +29,15 @@ Topics we covered:
     - CSS syntax
     - CSS selectors
     - Widely used CSS properties
+
+
+## [Lab 3 - September 16th, 2022](/lab-3/README.md)
+
+Topics we covered:
+1. Adding classnames to CSS
+2. Margins and Padding
+3. Height and Width of elements
+4. Borders
+5. Icons
+6. Ordering and Positioning
+7. CSS Grids
