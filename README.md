@@ -41,3 +41,13 @@ Topics we covered:
 5. Icons
 6. Ordering and Positioning
 7. CSS Grids
+
+## [Lab 4 - September 23rd, 2022](/lab-4/README.md)
+
+Topics we covered:
+1. About Javscript
+2. How does JS work in the background?
+3. Running JS in your computer
+4. Embedding JS in your HTML file
+5. Variables in JS
+6. Basics of DOM Manipulation
