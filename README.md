@@ -51,3 +51,18 @@ Topics we covered:
 4. Embedding JS in your HTML file
 5. Variables in JS
 6. Basics of DOM Manipulation
+
+## [Advanced Javascript - September 26th, 2022](/lab-4/README.md)
+
+Topics we covered:
+
+1. Javascript Fundamentals:
+    - Hello, world!
+    - Variables and data types
+    - Operators
+2. Looping
+3. Conditionals
+4. Functions
+5. Arrow functions
+6. Objects and JSON
+7. Callbacks, Promises and Async/Await
