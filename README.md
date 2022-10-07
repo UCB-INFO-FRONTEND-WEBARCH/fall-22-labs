@@ -66,3 +66,13 @@ Topics we covered:
 5. Arrow functions
 6. Objects and JSON
 7. Callbacks, Promises and Async/Await
+
+## [Lab 5 - October 7th, 2022](/lab-5/README.MD)
+
+1. Intro to React
+2. Creating a new React Project
+3. Structure of a React project
+4. Using React with Github
+5. Working with components
+6. Props
+7. State
