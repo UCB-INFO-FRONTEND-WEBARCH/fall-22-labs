@@ -67,7 +67,7 @@ Topics we covered:
 6. Objects and JSON
 7. Callbacks, Promises and Async/Await
 
-## [Lab 5 - October 7th, 2022](/lab-5/README.MD)
+## [Lab 5 - October 7th, 2022](/lab-5/README.md)
 
 1. Intro to React
 2. Creating a new React Project
