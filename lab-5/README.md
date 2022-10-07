@@ -49,6 +49,7 @@ We can run a react project locally using `npm start` and create sharable files f
 
 ## Structure of a React Project
 
+```
 -> node_modules
 -> public
 -> src
@@ -56,6 +57,7 @@ We can run a react project locally using `npm start` and create sharable files f
 -> .package-lock.json
 -> package.json
 -> README.md
+```
 
 ### Managing Packages
 
@@ -192,9 +194,11 @@ Within my src folder, I am going to create a new component called `NewComponent`
 
 It is also another best practice to name your in `PascalCase`
 
+```
 -> src
     -> NewComponent
         -> NewComponent.js
+```
 
 ```
 NewComponent.js
