@@ -23,7 +23,6 @@ We don’t make assumptions about the rest of your technology stack, so you can 
 
 React can also render on the server using Node and power mobile apps using React Native.
 
-<hr>
 
 ## How does React work?
 
@@ -45,7 +44,6 @@ We will talk more about the structure and the files in the upcoming sections.
 
 We can run a react project locally using `npm start` and create sharable files for hosting the project using `npm run build`.
 
-<hr>
 
 ## Structure of a React Project
 
@@ -126,7 +124,6 @@ This is where the actual `root` component is defined. Our App function returns a
 
 We use this file as our hierarchy maintainer. We saw how React used components and maintained a hierarchy of these components, this can be managed within the `App.js`. We will be diving more into this in the upcoming sections.
 
-<hr>
 
 ## Using React with GitHub
 
@@ -142,7 +139,6 @@ Well, we use `package.json`. We can install all required packages anytime using 
 
 So everytime you put your project in a new computer or a server, you just run `npm install` and you are ready to go.
 
-<hr>
 
 ## Components in React
 
