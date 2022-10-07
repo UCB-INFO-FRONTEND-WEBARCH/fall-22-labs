@@ -39,7 +39,7 @@ This project source was created using [`create-react-app`](https://create-react-
 
 `create-react-app my-app` will create a new React project called `my-app` with the right structure and all essential files. 
 
-It will also publish a default `README.md` file which we have moved to [`REACT.md`](./REACT.md) so that we can repurpose this README.
+It will also publish a default `README.md` file which we have moved to [`REACT.md`](./lab-5/REACT.md) so that we can repurpose this README.
 
 We will talk more about the structure and the files in the upcoming sections.
 
