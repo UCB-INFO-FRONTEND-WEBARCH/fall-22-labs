@@ -5,6 +5,7 @@ This repository serves as the base for all the demo and practice code that we do
 ## [Lab 1 - September 2nd, 2022](/lab-1/README.md)
 
 Topics we covered:
+
 1. Setting up the coding environment for this class.
 2. Introduction to Github, basic commands and Github Desktop/VS Code integrations.
 3. Basics of HTML5
@@ -16,6 +17,7 @@ Topics we covered:
 ## [Lab 2 - September 9th, 2022](/lab-2/README.md)
 
 Topics we covered:
+
 1. Developer Tools and Page Source
 2. DOM
 3. Advanced HTML5 tags
@@ -34,6 +36,7 @@ Topics we covered:
 ## [Lab 3 - September 16th, 2022](/lab-3/README.md)
 
 Topics we covered:
+
 1. Adding classnames to CSS
 2. Margins and Padding
 3. Height and Width of elements
@@ -45,6 +48,7 @@ Topics we covered:
 ## [Lab 4 - September 23rd, 2022](/lab-4/README.md)
 
 Topics we covered:
+
 1. About Javscript
 2. How does JS work in the background?
 3. Running JS in your computer
@@ -69,10 +73,17 @@ Topics we covered:
 
 ## [Lab 5 - October 7th, 2022](/lab-5/README.md)
 
+Topics we covered:
+
 1. Intro to React
 2. Creating a new React Project
 3. Structure of a React project
 4. Using React with Github
 5. Working with components
-6. Props
-7. State
+
+## [Lab 5 Continued - October 10th, 2022](/lab-5-contd/README.md)
+
+Topics we covered:
+
+1. Props
+2. State
