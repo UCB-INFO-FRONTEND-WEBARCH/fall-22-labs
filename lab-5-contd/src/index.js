@@ -5,12 +5,12 @@ import App from "./App";
 import NewComponent from "./NewComponent/NewComponent";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-const myDefinition = {
-  name: "Heading 3",
-  value: "Test Header",
-};
 root.render(
   <React.StrictMode>
-    <NewComponent definition={myDefinition} />
+    <App />
+    <hr />
+    <p>
+      <NewComponent nameNew="Component 1" value={10} noName="Test"/>
+    </p>
   </React.StrictMode>
 );

@@ -108,4 +108,51 @@ The re-rendering is tied to the `setState()`. The `setState()` method triggers t
 
 ## Working Example for States
 
-Note: Will be updated after class!
+```
+const NewComponent = (props) => {
+  // const [name, setName] = useState("John Doe");
+  const [name, setName] = useState("John Doe");
+  return (
+    <>
+      <h3>Component: {props.name}</h3>
+
+      <input
+        type="text"
+        onChange={(e) => {
+          console.log(e.target.value);
+          setName(e.target.value);
+        }}
+      ></input>
+      <h4>Your name: {name}</h4>
+    </>
+  );
+};
+```
+
+We create a `state` called `name` and a setter function for it called `setName` using the `useState` function.
+
+Now we create an input textbox whose value we want to populate as our name in `<h4>`. So within the `onChange` event for our input, we update our state using `setName` function and pass the updated value of the textbox using `e.target.value`.
+
+Now that we are using `setName`, the value of `name` is updated and the component is re-rendered. You can see the new value of name from the input textbox being rendered into the heading below.
+
+```
+const NewComponent = (props) => {
+  let name = "John Doe";
+  return (
+    <>
+      <h3>Component: {props.name}</h3>
+      <input
+        type="text"
+        onChange={(e) => {
+          console.log(e.target.value);
+          name = e.target.value;
+        }}
+      ></input>
+      <h4>Your name: {name}</h4>
+    </>
+  );
+};
+```
+On the other hand, if we were just using a local, non-state variable like in the snippet above, even though your name is updated as `e.target.value`, the value of name in `<h4>` still remains as `"John Doe"` as the HTML can't handle that change unless it is reflected in the DOM. To do that, you will have to use something using Javscript where you `getElementById` and then set its value using `innerHTML`. Doing that is a viable option but that is complex in terms of usability and is slower.
+
+Using the Virtual DOM is faster and the `setName()` or the setter function automatically triggers the re-render for us, without the need to manually do that replacement using Javascript.

@@ -2,20 +2,19 @@ import { useState } from "react";
 import "./newComponent.css";
 
 const NewComponent = (props) => {
-  let name = "John Doe";
+  const [name, setName] = useState("John Doe");
   return (
     <>
-      <h3>Component Name: {props.definition.name}</h3>
-      <h4>Type: {props.definition.value}</h4>
+      <h3>Component: {props.nameNew}</h3>
+
       <input
         type="text"
         onChange={(e) => {
-          name = e.target.value;
-          console.log(name);
+          console.log(e.target.value);
+          setName(e.target.value);
         }}
       ></input>
-      <br />
-      Welcome: {name}
+      <h4>Your name: {name}</h4>
     </>
   );
 };
