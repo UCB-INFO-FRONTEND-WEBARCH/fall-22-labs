@@ -87,3 +87,11 @@ Topics we covered:
 
 1. Props
 2. State
+
+## [Lab 6 - October 15th, 2022](/lab-6/README.md)
+
+Topics we covered:
+
+1. Assignment 1 - Common Mistakes
+2. Array functions in Javascript - Map, Filter, ForEach
+3. useState and useEffect Hooks
