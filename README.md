@@ -101,4 +101,4 @@ Topics we covered:
 Topics we covered:
 
 1. Context
-2. OUr first complete hands-on web app
+2. Our first complete hands-on web app
