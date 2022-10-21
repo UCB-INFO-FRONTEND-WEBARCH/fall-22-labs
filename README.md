@@ -95,3 +95,10 @@ Topics we covered:
 1. Assignment 1 - Common Mistakes
 2. Array functions in Javascript - Map, Filter, ForEach
 3. useState and useEffect Hooks
+
+## [Lab 7 - October 21st, 2022](/lab-7/README.md)
+
+Topics we covered:
+
+1. Context
+2. OUr first complete hands-on web app

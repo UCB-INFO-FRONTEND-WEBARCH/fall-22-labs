@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Eureka Whirlwind",
+    "price": 79.99,
+    "img": "https://dyson-h.assetsadobe2.com/is/image/content/dam/dyson/images/products/primary/394429-01.png?$responsive$&cropPathE=desktop&fit=stretch,1&wid=960"
+  },
+  {
+    "id": 2,
+    "name": "Shark NV356E",
+    "price": 159.99,
+    "img": "https://image-us.samsung.com/SamsungUS/home/home-appliances/vacuums/jet-stick/vs20a95923b-aa/VS20A95923B_01_Blue_SCOM.jpg?$product-details-blur-jpg$"
+  },
+  {
+    "id": 3,
+    "name": "Hoover WindTunnel",
+    "price": 99.99,
+    "img": "https://cdn.shopify.com/s/files/1/0082/3666/2902/products/1-tuya.jpg?v=1641969362"
+  },
+  {
+    "id": 4,
+    "name": "Dirt Devil Endura",
+    "price": 74.99,
+    "img": "https://target.scene7.com/is/image/Target/GUEST_93c0ea64-60d9-4bd4-b404-427091605b66?wid=250&hei=250&fmt=webp"
+  }
+]
