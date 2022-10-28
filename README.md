@@ -101,4 +101,11 @@ Topics we covered:
 Topics we covered:
 
 1. Context
-2. OUr first complete hands-on web app
+2. Our first complete hands-on web app - A basic Amazon Clone
+
+## [Lab 8 - October 28th, 2022](/lab-8/README.md)
+
+Topics we covered:
+
+1. localStorage and sessionStorage
+2. Routing
