@@ -66,7 +66,7 @@ You can update a localStorage key using the `setItem()` again.
 You can delete an entry with the `removeItem()` method. The `removeItem()` method takes one argument which will be a key of the localStorage object.
 
 ```
-localStorage.removeItem(items);
+localStorage.removeItem('items');
 ```
 
 _You can also clear all items in localStorage_. This can be done with the `clear()` method.
@@ -122,7 +122,7 @@ Till now we have worked with web applications/websites with only one path or pag
 
 For example, your personal portfolios can have seperate pages for things like `Contact`, `About` and maybe even a `Blog` that you maintain.
 
-React allows us to add "routing" to our web applications. 
+React allows us to add "routing" to our web applications.
 
 In React, routers help create and navigate between the different URLs that make up your web application. They allow your user to move between the components of your app while preserving user state, and can provide unique URLs for these components to make them more shareable. With routers, you can improve your app’s user experience by simplifying site navigation.
 
@@ -153,42 +153,41 @@ Below is a code snippet of a React application with routing enabled.
 ```
 // App.js
 
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import About from "./About";
+import Contact from "./Contact";
+import Home from "./Home";
 
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Home from './component/home';
-import About from './component/about';
-import Contact from './component/contact';
-import './App.css';
-  
-class App extends Component {
-  render() {
-    return (
-       <Router>
-           <div className="App">
-            <ul className="App-header">
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/about">About Us</Link>
-              </li>
-              <li>
-                <Link to="/contact">Contact Us</Link>
-              </li>
-            </ul>
-           <Routes>
-                 <Route exact path='/' element={< Home />}></Route>
-                 <Route exact path='/about' element={< About />}></Route>
-                 <Route exact path='/contact' element={< Contact />}></Route>
+function App() {
+  return (
+    <>
+      <Router>
+        <div>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/about">About Us</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact Us</Link>
+            </li>
+          </ul>
+          <Routes>
+            <Route exact path="/" element={<Home />}></Route>
+            <Route exact path="/about" element={<About />}></Route>
+            <Route exact path="/contact" element={<Contact />}></Route>
           </Routes>
-          </div>
-       </Router>
-   );
-  }
+        </div>
+      </Router>
+    </>
+  );
 }
-  
+
 export default App;
+
+
 ```
 
 We are creating three routes for three components -> `Home`, `About`, `Contact Us`.
@@ -212,4 +211,42 @@ Route component will now help us to establish the link between component’s UI 
 2. `Path`: Path specifies a pathname we assign to our component.
 3. `Element`: It refers to the component which will render on matching the path.
 
+_With new React versions, we dont need the `exact` prop anymore as Route automatically checks for only exact matches._
+
 Note that we are still rendering a single component.
+
+### Using/Calling Routes within components
+
+Let's say I want to switch pages or go to another page on a certain action such as a button click. We can either put the button onside the `Link` tag or we can also use the `useNavigate()` hook!
+
+Let's update our `Home` to have buttons to take us to `Contact` and `About`.
+
+```
+import { useNavigate } from "react-router-dom";
+
+const Home = () => {
+  const navigate = useNavigate();
+  const aboutNav = () => {
+    navigate("/about");
+  };
+  const contactNav = () => {
+    navigate("/contact");
+  };
+  return (
+    <>
+      <h1>This is home</h1>
+      <div>
+        <button onClick={aboutNav}>Go to About</button>
+        <button onClick={contactNav}>Go to Contact</button>
+      </div>
+    </>
+  );
+};
+
+export default Home;
+```
+
+We use the `useNavigate` hook from `react-router-dom`.
+We then intialize `navigate` using `useNavigate`. This variable is the route handler and has a lit of all routes being passed down to the component.
+
+Then when we click on a button, we just use `navigate('/route')` and this should be enough to render the component for that route and take us to that path.
